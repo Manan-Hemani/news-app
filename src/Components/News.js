@@ -2,21 +2,49 @@ import React, { Component } from "react";
 import NewsItems from "./NewsItems";
 
 export default class News extends Component {
+    
+
+    constructor() {
+        super();
+        this.state = {
+            articles: [],
+            page: 1
+        }
+    }
+
+    async componentDidMount(){
+        let url ="https://newsapi.org/v2/top-headlines?country=us&apiKey=2af6c5a4105342d5b209b56b7e642081";
+        let data = await fetch(url);
+        let parsedData = await data.json();
+        this.setState({articles:parsedData.articles});
+    }
+
+    handlePreviousClick = () => {
+        console.log("prev");
+    }
+
+    handleNextClick = () => {
+        console.log("nxt");
+    }
+
     render() {
         return (
             <div className="container mt-2">
                 <h2>Headlines!</h2>
                 <div className="row">
-                    <div className="col-md-4">
-                        <NewsItems title="myTitle" description="WECJSDNKX" />
-                    </div>
-                    <div className="col-md-4">
-                        <NewsItems title="myTitle" description="WECJSDNKX" />
-                    </div>
-                    <div className="col-md-4">
-                        <NewsItems title="myTitle" description="WECJSDNKX" />
-                    </div>
+                    {this.state.articles.map((element)=>{
+                        return(
+                            <div className="col-md-4" key={element.url}>
+                                <NewsItems title={element.title ? element.title.slice(0, 50) : ""} description={element.description ? element.description.slice(0, 50) : ""} imageUrl={element.urlToImage ? element.urlToImage :"https://kaverisias.com/wp-content/uploads/2018/01/catalog-default-img.gif"} newsUrl={element.url} />
+                            </div>
+                        )
+                    })}
                 </div>
+                <div className="d-flex justify-content-between mt-3">
+                    <button type="button" disabled={this.state.page<=1} onClick={this.handlePreviousClick} className="btn btn-dark">&larr; Previous</button>
+                    <button type="button" onClick={this.handleNextClick} className="btn btn-dark">Next &rarr;</button>
+                </div>
+                
                 
             </div>
         )
