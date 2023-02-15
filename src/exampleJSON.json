@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Arjun Kharpal",
+            "title": "Elon Musk aiming to appoint his successor as Twitter CEO by the end of 2023 - CNBC",
+            "description": "Elon Musk said Wednesday that he might be able to appoint his successor as Twitter CEO by the end of 2023.",
+            "url": "https://www.cnbc.com/2023/02/15/elon-musk-aiming-to-appoint-new-twitter-ceo-by-end-of-2023.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107194778-1676445982161-gettyimages-1247149566-AFP_339A9BP.jpeg?v=1676447722&w=1920&h=1080",
+            "publishedAt": "2023-02-15T07:55:22Z",
+            "content": "Elon Musk said Wednesday that he might be able to appoint his successor as Twitter CEO by the end of 2023 but first needs to \"stabilize\" his social media company.\r\n\"I think I need to stabilize the or… [+3259 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "2023 NFL offseason: Sean Payton's Broncos among five teams poised to make a major leap next season - CBS Sports",
+            "description": "A look at which teams could be on the upswing next season",
+            "url": "https://www.cbssports.com/nfl/news/2023-nfl-offseason-sean-paytons-broncos-among-five-teams-poised-to-make-a-major-leap-next-season/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/02/11/94fcad25-e0b2-4a5b-90c1-cb3ef6d9532d/thumbnail/1200x675/4d4f98a27b28d8f66d6d731a00f6ed89/gettyimages-1463531636-1.jpg",
+            "publishedAt": "2023-02-15T07:47:00Z",
+            "content": "The 2022 NFL season is in the books after the Chiefs won their second Lombardi Trophy in four years Sunday night. Now, it's time to look ahead to the 2023 offseason. We don't yet know which big names… [+3944 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Elon Musk donates almost $2bn of Tesla shares to charity - BBC",
+            "description": "Also on Wednesday, Mr Musk hinted he plans to find his successor to lead Twitter by the end of 2023.",
+            "url": "https://www.bbc.com/news/business-64645888",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8235/production/_128633333_gettyimages-1459166551.jpg",
+            "publishedAt": "2023-02-15T06:37:16Z",
+            "content": "Tesla chief executive Elon Musk says he donated around $1.95bn (£1.6bn) worth of shares in his electric carmaker to charity last year.\r\nThe donation of 11.6 million shares was described in a filing w… [+2003 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Yeo Boon Ping",
+            "title": "CNBC Daily Open: U.S. stocks shrug off hot inflation numbers - CNBC",
+            "description": "A hotter-than-expected CPI reading for January caused U.S. Treasury yields to increase. But stocks were remarkably resilient.",
+            "url": "https://www.cnbc.com/2023/02/15/stock-markets-us-stocks-shrug-off-hot-inflation-numbers.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107194764-1676440434473-gettyimages-1405147083-mlcf0569x_062522.jpeg?v=1676440634&w=1920&h=1080",
+            "publishedAt": "2023-02-15T05:57:14Z",
+            "content": "This report is from today's CNBC Daily Open, our new, international markets newsletter. CNBC Daily Open brings investors up to speed on everything they need to know, no matter where they are. Like wh… [+1797 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "Michael R. Sisak",
+            "title": "U-Haul driver blames 'invisible object' for deadly rampage - The Associated Press",
+            "description": "NEW YORK (AP) — A man who went on a deadly rampage with a U-Haul truck Monday in New York City was suffering from an apparent mental health crisis and said he started mowing people down after seeing an “invisible object” coming toward him, police said Tuesday.",
+            "url": "https://apnews.com/article/new-york-city-brooklyn-4b22860828f868abff0ead8a9acf1e73",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/a922cb80b65a464b97b630a9c337e3cd/3000.webp",
+            "publishedAt": "2023-02-15T05:36:50Z",
+            "content": "NEW YORK (AP) A man who went on a deadly rampage with a U-Haul truck Monday in New York City was suffering from an apparent mental health crisis and said he started mowing people down after seeing an… [+5705 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Indian tax officials raid BBC offices weeks after UK broadcaster airs Modi documentary - South China Morning Post",
+            "description": "Subscribe to our YouTube channel for free here: https://sc.mp/subscribe-youtubeIndian tax authorities raided the BBC’s New Delhi and Mumbai offices on Februa...",
+            "url": "https://www.youtube.com/watch?v=ZyssImxjM18",
+            "urlToImage": "https://i.ytimg.com/vi/ZyssImxjM18/maxresdefault.jpg",
+            "publishedAt": "2023-02-15T04:20:36Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "John Woodrow Cox",
+            "title": "Oxford High student survives second shooting at Michigan State - The Washington Post",
+            "description": "Emma Riddle was a senior at Oxford High School in 2021 when four of her classmates were killed. On Monday night, the Michigan State freshman texted her father, « I'm so scared, » during another mass shooting.",
+            "url": "https://www.washingtonpost.com/education/2023/02/14/oxford-high-michigan-state-shooting-survivor/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4XSOMNNICND2XC6ABT6MR6MC2Q.JPG&w=1440",
+            "publishedAt": "2023-02-15T04:09:00Z",
+            "content": "Emma Riddle had felt this fear before.\r\nIt was just past 8:30 Monday night, and the freshman at Michigan State University was in her dorm room, staring at an email on her phone. Shots had been fired … [+5898 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Page Six"
+            },
+            "author": "Nicki Cox",
+            "title": "Jennifer Lopez, Ben Affleck prove their 'commitment' with matching tattoos - Page Six",
+            "description": "Lopez, 53, and Affleck, 50 — who wed in August 2022 — proved their “commitment” to one another by getting coordinating tattoos for Valentine’s Day.",
+            "url": "https://pagesix.com/2023/02/14/jennifer-lopez-ben-affleck-get-matching-tattoos-on-valentines-day/",
+            "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2023/02/NYPICHPDPICT000006682439.jpg?quality=75&strip=all&w=1200",
+            "publishedAt": "2023-02-15T04:05:00Z",
+            "content": "They are committed. \r\nJennifer Lopez and Ben Affleck who tied the knot in August 2022 celebrated their first Valentine’s Day as a married couple by getting coordinating tattoos.\r\n“Commitment Happy Va… [+1609 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Hogwarts Legacy: Which House Should You Choose? - IGN",
+            "description": "When you first start Hogwarts Legacy, the sorting hat will sort you into one of four different houses —Gryffindor, Slytherin, Ravenclaw, and Hufflepuff. Bein...",
+            "url": "https://www.youtube.com/watch?v=I4P0gmD7Sb0",
+            "urlToImage": "https://i.ytimg.com/vi/I4P0gmD7Sb0/maxresdefault.jpg",
+            "publishedAt": "2023-02-15T04:00:04Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Eonline.com"
+            },
+            "author": "Angie Orellana Hernandez",
+            "title": "Marc Anthony and New Wife Nadia Ferreira Are Expecting Their First Baby Together - E! NEWS",
+            "description": "Marc Anthony and wife Nadia Ferreira announced they were expecting their first child in a Feb. 14 Instagram post, calling it the \"Best Valentine's Gift Ever!!!\"",
+            "url": "https://www.eonline.com/news/1365031/marc-anthony-and-new-wife-nadia-ferreira-are-expecting-their-first-baby-together",
+            "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/20221017/rs_1200x1200-221117164324-1200-GettyImages-1244862025.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+            "publishedAt": "2023-02-15T03:46:00Z",
+            "content": "Marc Anthony's Valentine's Day just got extra special.\r\nOn Feb. 14, the salsa artist and his wife, Nadia Ferreira, shared that they are expecting their first child together. Posting a picture of Marc… [+749 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Hugo Lowell",
+            "title": "Three Trump lawyers have appeared before grand jury in documents inquiry - The Guardian US",
+            "description": "Attorneys were involved in compiling subpoenaed documents and have searched Mar-a-Lago",
+            "url": "https://www.theguardian.com/us-news/2023/feb/14/trump-documents-mar-a-lago-lawyers-grand-jury",
+            "urlToImage": "https://i.guim.co.uk/img/media/4008c674ed11d8cbccf6081ee131a78993a52ab8/0_65_5172_3103/master/5172.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8d6bee8c16340756aa325f7d887e5652",
+            "publishedAt": "2023-02-15T03:30:00Z",
+            "content": "Three lawyers for Donald Trump recently appeared before a federal grand jury as part of the special counsel investigation into his possible retention of national security materials at his Mar-a-Lago … [+4033 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Allie Griffin",
+            "title": "Driver dead after hazmat spill on Tucson freeway forces evacuation, shelter-in-place order - New York Post ",
+            "description": "A commercial tanker truck rolled over on Interstate 10 in Tucson Tuesday and began leaking liquid nitric acid, the Arizona Department of Safety said.",
+            "url": "https://nypost.com/2023/02/14/hazmat-spill-on-tucson-freeway-forces-evacuation-shelter-in-place-order/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/02/NYPICHPDPICT000006681377.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2023-02-15T03:17:00Z",
+            "content": "A truck carrying hazardous chemicals overturned on an Arizona freeway Tuesday, forcing nearby residents to either evacuate or shelter in place. \r\nThe tractor-trailer commercial tanker truck rolled ov… [+1996 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rolling Stone"
+            },
+            "author": "Charisma Madarang",
+            "title": "Lady Gaga, Joaquin Phoenix Unveil Dramatic First Look at ‘Joker’ Sequel - Rolling Stone",
+            "description": "The actress and singer will star opposite Joaquin Phoenix in Joker: Folie à Deux",
+            "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/lady-gaga-joaquin-phoenix-first-look-joker-sequel-1234680169/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2023/02/Lady-Gaga-Joker-Preview.jpg?w=1600&h=900&crop=1",
+            "publishedAt": "2023-02-15T03:16:27Z",
+            "content": "Lady Gaga andJoaquin Phoenix share the screen for the first look at Joker: Folie à deux, with filmmaker Todd Phillips. An image of the two locking eyes was shared on social media Tuesday for Valentin… [+869 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Four killed in New Zealand cyclone as clean-up begins - Al Jazeera English",
+            "description": "Cyclone Gabrielle cut off towns, washed away houses and left people stranded on on rooftops.",
+            "url": "https://www.aljazeera.com/news/2023/2/15/three-killed-in-new-zealand-cyclone-as-clean-up-begins",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/02/339A8F4-highres.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-02-15T02:46:24Z",
+            "content": "Four people have been confirmed dead and thousands displaced in New Zealand after Cyclone Gabrielle brought widespread flooding and landslides to the northern part of the country.\r\nGabrielle, which r… [+2814 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Scott Thompson",
+            "title": "Patrick Mahomes jumps into Chiefs-Eagles Twitter battle after Super Bowl LVII - Fox News",
+            "description": "Patrick Mahomes decided to inject himself into the Kansas City Chiefs-Philadelphia Eagles Twitter battle on Tuesday night, which was started by JuJu Smith-Schuster.",
+            "url": "https://www.foxnews.com/sports/patrick-mahomes-jumps-chiefs-eagles-twitter-battle-super-bowl-lvii",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/02/5f95feaa-Patrick-Mahomes.jpg",
+            "publishedAt": "2023-02-15T02:06:00Z",
+            "content": "What started as a Valentines Day troll by JuJu Smith-Schuster to James Bradberry has turned into a Twitter beef where Kansas City Chiefs quarterback Patrick Mahomes got involved. \r\nMahomes was the la… [+2189 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "",
+            "title": "Erin Brockovich reacts to EPA response in Ohio train spills - CNN",
+            "description": "The EPA has tried to reassure the public in East Palestine, Ohio, that any immediate danger has passed after a train carrying hazardous chemicals derailed on February 3rd, but residents are still questioning the air and water quality. Consumer advocate and en…",
+            "url": "https://www.cnn.com/videos/us/2023/02/14/ohio-train-derailment-spill-erin-brockovich-sot-lead-vpx.cnn",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230214193808-ohio-train-vpx-021423.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-02-15T01:36:13Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Shalise Manza Young",
+            "title": "Another NFL head-coaching cycle sadly ends without Eric Bieniemy landing a job - Yahoo Sports",
+            "description": "It's pretty clear that Chiefs offensive coordinator Eric Bieniemy will never be an NFL head coach. But that doesn't change how absurd it is that he isn't.",
+            "url": "https://sports.yahoo.com/another-nfl-head-coaching-cycle-sadly-ends-without-eric-bieniemy-landing-a-job-010743794.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/zr_bwKvNCRjv7iZ5bVoA8w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTA-/https://s.yimg.com/os/creatr-uploaded-images/2023-02/01d1d650-acc4-11ed-bf7f-73d706e3e2c9",
+            "publishedAt": "2023-02-15T01:07:00Z",
+            "content": "With the Arizona Cardinals announcing Tuesday the hiring of Jonathan Gannon as head coach, the 2023 NFL head-coach hiring cycle ended.\r\nLast we saw Gannon, he was the Philadelphia Eagles' defensive c… [+5732 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Overwatch 2 - Official Loverwatch Dating Sim Trailer - IGN",
+            "description": "Watch the trailer to learn about Loverwatch, an Overwatch dating sim available to play now on desktop browsers. Loverwatch is a totally real, totally non-can...",
+            "url": "https://www.youtube.com/watch?v=EHPOherjWWM",
+            "urlToImage": "https://i.ytimg.com/vi/EHPOherjWWM/maxresdefault.jpg",
+            "publishedAt": "2023-02-15T01:00:04Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Nikki Haley takes on Donald Trump for 2024 U.S. Republican nomination - Reuters",
+            "description": "Former U.S. ambassador to the United Nations Nikki Haley on Tuesday kicked off her campaign for the 2024 Republican presidential nomination, challenging her former boss <a href=\"/world/us/trump-launch-new-white-house-bid-while-his-party-licks-its-wounds-2022-…",
+            "url": "https://www.reuters.com/world/us/haley-announces-2024-republican-presidential-bid-marks-trumps-first-challenger-2023-02-14/",
+            "urlToImage": "https://www.reuters.com/resizer/Tx8hEQ13Ha_g7tWR1Ohgx_MONik=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/243IKX57AZL6BKWVCTS5W5AXLA.jpg",
+            "publishedAt": "2023-02-15T00:37:00Z",
+            "content": "WASHINGTON, Feb 14 (Reuters) - Former U.S. ambassador to the United Nations Nikki Haley on Tuesday kicked off her campaign for the 2024 Republican presidential nomination, challenging her former boss… [+4910 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Kristen Rogers",
+            "title": "Too much added sugar could harm your health, study says - CNN",
+            "description": "Eating high amounts of free or added sugars could increase risk for cardiovascular disease, a new study has found.",
+            "url": "https://www.cnn.com/2023/02/14/health/added-free-sugars-cardiovascular-disease-risk-wellness/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230214131548-assorted-cookies-stock.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-02-15T00:15:00Z",
+            "content": "Sign up for CNNs Eat, But Better: Mediterranean Style. Our eight-part guide shows you a delicious expert-backed eating lifestyle that will boost your health for life.\r\nEating a lot of free sugars als… [+6044 chars]"
+        }
+    ]
+}
