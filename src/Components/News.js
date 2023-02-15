@@ -38,7 +38,7 @@ export default class News extends Component {
             let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=2af6c5a4105342d5b209b56b7e642081&page=${this.state.page + 1}&pageSize=12`;
             let data = await fetch(url);
             let parsedData = await data.json();
-            this.setState({ page: this.state.page + 1, articles: parsedData.articles });
+            this.setState({ page: this.state.page + 1, articles: parsedData.articles,});
         }
         
     }
@@ -47,6 +47,7 @@ export default class News extends Component {
         return (
             <div className="container mt-2">
                 <h2>Headlines!</h2>
+
                 <div className="row">
                     {this.state.articles.map((element)=>{
                         return(
