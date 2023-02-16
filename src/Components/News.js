@@ -5,16 +5,16 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
 const News = (props) => {    
 
-    const[articles,setArticles] = useState([]);
-    const [page, setPage] = useState(1);
-    const [totalResults, setTotalResults] = useState(0);
+    const [articles, setArticles] = useState([])
+    const [page, setPage] = useState(1)
+    const [totalResults, setTotalResults] = useState(0)
 
     const getNews = async () => {
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=2af6c5a4105342d5b209b56b7e642081&page=${page}&pageSize=${props.pageSize}`;
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=27c3bf30833642eba9862221c821f5ad&page=${page}&pageSize=12`;
         const data = await fetch(url);
         const parsedData = await data.json();
-        setArticles(parsedData.articles);
-        setTotalResults(parsedData.totalResults);
+        setArticles(parsedData.articles)
+        setTotalResults(parsedData.totalResults)
     }
 
     useEffect(() => {
@@ -22,13 +22,12 @@ const News = (props) => {
     },[])
 
     const fetchData = async () => {
-        setPage(page + 1);
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=2af6c5a4105342d5b209b56b7e642081&page=${page}&pageSize=${props.pageSize}`;
+        setPage(page + 1)
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=27c3bf30833642eba9862221c821f5ad&page=${page + 1}&pageSize=12`;
         const data = await fetch(url);
         const parsedData = await data.json();
-        
-        setArticles(articles.concat(parsedData.articles));
-        setTotalResults(parsedData.totalResults);
+        setArticles(articles.concat(parsedData.articles))
+        setTotalResults(parsedData.totalResults)
         
     }
 
@@ -61,52 +60,56 @@ const News = (props) => {
     // }
 
     return (
-        <div className="container mt-2">
-            <h2>Headlines!</h2>
+        <>
+            <div className="container mt-2">
+                <h2>Headlines!</h2>
 
-            <InfiniteScroll
-                dataLength={articles.length}
-                next={fetchData}
-                hasMore={articles.length !== totalResults}
-                loader={<h4>Loading...</h4>}>
+                <InfiniteScroll
+                    dataLength={articles.length}
+                    next={fetchData}
+                    hasMore={articles.length !== totalResults}
+                    loader={<h1>Loading...</h1>}
+                >
 
-                <div className="row">
-                    {articles.map((element) => {
-                        return (
-                            <div className="col-md-4" key={element.url}>
-                                <NewsItems title={element.title ? element.title.slice(0, 50) : ""} description={element.description ? element.description.slice(0, 50) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://kaverisias.com/wp-content/uploads/2018/01/catalog-default-img.gif"} newsUrl={element.url} />
-                            </div>
-                        )
-                    })}
-                </div>
+                    <div className='container'>
+                        <div className='row'>
+                            {articles.map((element) => {
+                                return <div className='col-md-4' key={element.url}>
+                                    <NewsItems title={element.title ? element.title.slice(0, 50) : ""} description={element.description ? element.description.slice(0, 50) : ""} imgUrl={element.urlToImage ? element.urlToImage :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRvURrxVdCQ-qh_VmG80K7iMWpsKzuUOrVBA&usqp=CAU"} newsUrl={element.url} />
+
+                                </div>
+                            })}
+
+                        </div>
+                    </div>
+                </InfiniteScroll>
+                    
+                    
+
+                        {/* IMPLEMENTED PAGINATION */}
+
+                {/* <div className="d-flex justify-content-between mt-3">
+                    <button type="button" disabled={page<=1} onClick={handlePreviousClick} className="btn btn-dark">&larr; Previous</button>
+                    <button type="button" disabled={page + 1 > Math.ceil(totalResults / 12)} onClick={handleNextClick} className="btn btn-dark">Next &rarr;</button>
+                </div> */}
                 
-            </InfiniteScroll>
                 
-                
-
-                    {/* IMPLEMENTED PAGINATION */}
-
-            {/* <div className="d-flex justify-content-between mt-3">
-                <button type="button" disabled={page<=1} onClick={handlePreviousClick} className="btn btn-dark">&larr; Previous</button>
-                <button type="button" disabled={page + 1 > Math.ceil(totalResults / 12)} onClick={handleNextClick} className="btn btn-dark">Next &rarr;</button>
-            </div> */}
-            
-            
-        </div>
+            </div>
+        </>
     )
 
 }
 
 News.defaultProps = {
     country: 'us',
+    pageSize: 12,
     category: 'general',
-    pageSize: 12
 }
 
 News.propTypes = {
     country: PropTypes.string,
+    pageSize: PropTypes.number,
     category: PropTypes.string,
-    pageSize: PropTypes.number
 }
 
 export default News;

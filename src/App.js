@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import News from "./Components/News";
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom"
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 const App = () => {
 return(
+  <div>
     <Router>
       <Navbar />
       <Switch>
@@ -16,8 +17,10 @@ return(
         <Route exact path="/sports"><News country="in" category="sports" pageSize={12} key="sports" /></Route>
         <Route exact path="/technology"><News country="in" category="technology" pageSize={12} key="technology" /></Route>
       </Switch>
-        
+
     </Router>
+  </div>
+    
   )
 }
 
