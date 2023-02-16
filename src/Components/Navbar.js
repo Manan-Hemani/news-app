@@ -13,25 +13,25 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/news-app">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/business">Business</a>
+                                <a className="nav-link" href="/news-app/business">Business</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/entertainment">Entertainment</a>
+                                <a className="nav-link" href="/news-app/entertainment">Entertainment</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/health">Health</a>
+                                <a className="nav-link" href="/news-app/health">Health</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/science">Science</a>
+                                <a className="nav-link" href="/news-app/science">Science</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/sports">Sports</a>
+                                <a className="nav-link" href="/news-app/sports">Sports</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/technology">Technology</a>
+                                <a className="nav-link" href="/news-app/technology">Technology</a>
                             </li>
                         </ul>
                     </div>
